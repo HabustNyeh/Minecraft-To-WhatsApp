@@ -1,6 +1,6 @@
-global.owner = ['6282181661561']
-global.botname = "RazenBot"
-global.botstaffgrup = '120363028019790486@g.us' //get with (prefix)chat in grup staff
+global.owner = ['6282181661561'] //your number
+global.botname = "" //Bot name
+global.botstaffgrup = '' //get with (prefix)chat in grup staff
 
 // Config Whatsapp socket
 global.prefix = '/'
@@ -48,8 +48,6 @@ global.Group = {
 	getGrup(string) {
 		string = string.toLowerCase()
 		let grup = {
-			Test: '120363028019790486@g.us',
-			lobby: '',
 			name: 'id', //name in Minecraft, id group - get with (prefix)chat
 		}
 		let results = Object.keys(grup).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string))
