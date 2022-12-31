@@ -1,0 +1,27 @@
+{
+  "name": "bot-whatsapp",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp Minecraft",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"No Have\"",
+    "start": "node start.js"
+  },
+  "keywords": [
+    "bot",
+    "bot-whatsapp",
+    "bot-minecraft",
+    "bot-whatsapp-minecraft"
+  ],
+  "author": "HabustNyeh",
+  "license": "ISC",
+  "dependencies": {
+    "@adiwajshing/baileys": "github:adiwajshing/baileys",
+    "awesome-phonenumber": "^4.2.0",
+    "cfonts": "^3.1.1",
+    "chalk": "^4.1.2",
+    "qrcode-terminal": "^0.12.0",
+    "url-regex-safe": "^3.0.0",
+    "yargs": "github:yargs/yargs"
+  }
+}
